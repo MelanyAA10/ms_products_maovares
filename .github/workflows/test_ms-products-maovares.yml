@@ -12,9 +12,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     environment: dev
-
     env:
       SPRING_PROFILES_ACTIVE: dev
       MONGO_URI: ${{ secrets.MONGO_URI }}
