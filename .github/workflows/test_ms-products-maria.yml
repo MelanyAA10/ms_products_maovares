@@ -64,8 +64,8 @@ deploy:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_0575605595734691A9CD56755538CC04 }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_89D3CFE862DC4A4E8E4FBD5C599444EB }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_3DF085778C824A008F17B8E20E9DF003 }}
-     
-
+          
+          
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
